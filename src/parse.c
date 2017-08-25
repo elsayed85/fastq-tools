@@ -10,7 +10,7 @@
 static void str_init(str_t* str)
 {
     str->n = 0;
-    str->size = 256;
+    str->size = 512;
     str->s = malloc_or_die(str->size);
     str->s[0] = '\0';
 }
